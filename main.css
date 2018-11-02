@@ -1,0 +1,145 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+.rest-name {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.navbar {
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.navbar a:link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar a:visited{
+    color: black;
+} 
+
+.link {
+    padding: 15px;
+}
+
+main {
+
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    padding-top: 25px;
+    font-size: 24px;
+}
+
+.callus {
+    font-size: 24px;
+}
+
+.bottom {
+    display: flex;
+    align-content: flex-start;
+    border-bottom: 1px solid black;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+ 
+.aboutus {
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.contactus {
+    margin: 20px;
+    margin-top: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.aboutusp {
+    margin: 0px;
+}
+
+.media {
+    margin-left: auto;
+}
+
+.social {
+    display: flex;
+    margin: 0px;
+}
+
+.instagram {
+    height: 50px;
+    width: 65px;
+    margin: 20px 20px 20px 0px;
+    border: 2px solid black;
+}
+/*.info > .contactus {
+    flex-direction: row;
+    align-items: center;
+}*/
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+
+.img {
+    margin-left: auto;
+}
+
+.footerimg {
+    height: 20px;
+    width: 30px;
+    margin: 15px 20px 15px -10px;
+    border: 2px solid black;
+}
+
+.footerp {
+    margin-left: 20px;
+}
+.btn {
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 18px;
+}
